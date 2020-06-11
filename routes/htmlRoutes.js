@@ -1,4 +1,6 @@
 var path = require("path");
+var data = require('../db/db.json');
+
 
 module.exports = function(app) {
   app.get("/notes", function(req, res) {
